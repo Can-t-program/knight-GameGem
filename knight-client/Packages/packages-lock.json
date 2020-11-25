@@ -62,6 +62,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "knight.framework.sdfcollision": {
+      "version": "file:./Knight-Lib/Knight.Framework.SDFCollision",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "nuget.mono-cecil": {
       "version": "file:nuget.mono-cecil@0.1.6-preview",
       "depth": 0,

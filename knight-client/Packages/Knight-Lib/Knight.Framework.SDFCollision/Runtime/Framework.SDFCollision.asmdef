@@ -1,0 +1,15 @@
+{
+    "name": "Framework.SDFCollision",
+    "references": [
+        "GUID:34ce72e8b9be69b408faa33297dd11c5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

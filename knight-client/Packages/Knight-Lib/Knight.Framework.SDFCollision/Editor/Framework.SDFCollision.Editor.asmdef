@@ -1,0 +1,16 @@
+{
+    "name": "Framework.SDFCollision.Editor",
+    "references": [
+        "GUID:34ce72e8b9be69b408faa33297dd11c5",
+        "GUID:84883ad3a895b3647bae9eeae475d98d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

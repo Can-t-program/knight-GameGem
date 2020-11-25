@@ -2,6 +2,7 @@
   "dependencies": {
 	"nuget.mono-cecil": "file:./nuget.mono-cecil@0.1.6-preview",
 	"knight.core": "file:./Knight-Lib/Knight.Core",
+	"knight.framework.sdfcollision": "file:./Knight-Lib/Knight.Framework.SDFCollision",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ide.visualstudio": "2.0.5",
     "com.unity.test-framework": "1.1.19",
