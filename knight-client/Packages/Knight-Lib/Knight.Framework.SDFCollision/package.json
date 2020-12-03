@@ -1,7 +1,7 @@
 {
   "name": "knight.framework.sdfcollision",
   "displayName":  "Knight.Framework.SDFCollision",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Knight Framework SDFCollision.",
   "keywords": [ "unity3d", "framework" ],
   "category": "FRAMEWORK",
