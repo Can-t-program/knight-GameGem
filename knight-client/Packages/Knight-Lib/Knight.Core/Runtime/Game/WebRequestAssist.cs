@@ -39,7 +39,7 @@ namespace Knight.Core
             UnityWebRequest rWebRequest = UnityWebRequest.Get(rRequest.Url);
             yield return rWebRequest.SendWebRequest();
 
-            if (rWebRequest.isNetworkError || !string.IsNullOrEmpty(rWebRequest.error))
+            if (rWebRequest.result == UnityWebRequest.Result.ConnectionError || !string.IsNullOrEmpty(rWebRequest.error))
             {
                 Debug.Log(rWebRequest.error);
                 rWebRequest.Dispose();
