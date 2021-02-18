@@ -7,11 +7,10 @@
       "dependencies": {}
     },
     "com.unity.ext.nunit": {
-      "version": "1.0.6",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
+      "version": "file:com.unity.ext.nunit@1.0.6",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.ide.visualstudio": {
       "version": "2.0.5",
@@ -62,15 +61,14 @@
       }
     },
     "com.unity.test-framework": {
-      "version": "1.1.20",
+      "version": "file:com.unity.test-framework@1.1.20",
       "depth": 0,
-      "source": "registry",
+      "source": "embedded",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.textmeshpro": {
       "version": "3.0.3",
