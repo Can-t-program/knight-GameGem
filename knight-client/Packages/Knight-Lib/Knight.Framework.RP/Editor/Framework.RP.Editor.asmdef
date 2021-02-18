@@ -1,0 +1,18 @@
+{
+    "name": "Framework.RP.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b6797784120d623409f9572da5f9f396"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

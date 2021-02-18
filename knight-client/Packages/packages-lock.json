@@ -106,6 +106,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "knight.framework.rp": {
+      "version": "file:./Knight-Lib/Knight.Framework.RP",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "knight.framework.sdfcollision": {
       "version": "file:./Knight-Lib/Knight.Framework.SDFCollision",
       "depth": 0,
