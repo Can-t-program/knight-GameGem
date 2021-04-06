@@ -6,7 +6,11 @@
 
 CBUFFER_START(UnityPerMaterial)
 float4 _BaseColor;
+float4 _BaseMap_ST;
 CBUFFER_END
+
+TEXTURE2D(_BaseMap);
+SAMPLER(sampler_BaseMap);
 
 
 float4 UnlitPassVertex(float3 positionOS : POSITION) : SV_POSITION

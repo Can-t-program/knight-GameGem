@@ -7,18 +7,24 @@ namespace Framework.RP
 {
     public class KnightRenderPipeline : RenderPipeline
     {
-        private KnightScriptableRenderer mRenderer = new KnightScriptableRenderer();
+        private bool                        mIsUseDynamicBatching;
+        private bool                        mIsUseGPUInstancing;
 
-        public KnightRenderPipeline()
+        private KnightScriptableRenderer    mRenderer = new KnightScriptableRenderer();
+
+        public KnightRenderPipeline(bool bIsUseDynamicBatching, bool bIsUseGPUInstancing, bool bIsUseSRPBatcher)
         {
-            GraphicsSettings.useScriptableRenderPipelineBatching = true;
+            this.mIsUseDynamicBatching = bIsUseDynamicBatching;
+            this.mIsUseGPUInstancing = bIsUseGPUInstancing;
+            
+            GraphicsSettings.useScriptableRenderPipelineBatching = bIsUseSRPBatcher;
         }
 
         protected override void Render(ScriptableRenderContext rContext, Camera[] rCameras)
         {
             for (int i = 0; i < rCameras.Length; i++)
             {
-                this.mRenderer.Render(rContext, rCameras[i]);
+                this.mRenderer.Render(rContext, rCameras[i], this.mIsUseDynamicBatching, this.mIsUseGPUInstancing);
             }
         }
     }

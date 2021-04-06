@@ -11,9 +11,16 @@ namespace Framework.RP
     [CreateAssetMenu(menuName = "Rendering/Knight Render Pipeline/Pipeline Asset")]
     public class KnightRenderPipelineAsset : RenderPipelineAsset
     {
+        [SerializeField]
+        private bool mUseDynamicBatching = true;
+        [SerializeField]
+        private bool mUseGPUInstancing   = true;
+        [SerializeField]
+        private bool mUseSRPBatcher      = true;
+
         protected override RenderPipeline CreatePipeline()
         {
-            return new KnightRenderPipeline();
+            return new KnightRenderPipeline(this.mUseDynamicBatching, this.mUseGPUInstancing, this.mUseSRPBatcher);
         }
     }
 }

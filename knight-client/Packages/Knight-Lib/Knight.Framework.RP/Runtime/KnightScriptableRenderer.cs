@@ -18,7 +18,7 @@ namespace Framework.RP
         private CommandBuffer           mCmdBuffer = new CommandBuffer() { name = mBufferName };
         private CullingResults          mCullingResults;
 
-        public void Render(ScriptableRenderContext rContext, Camera rCamera)
+        public void Render(ScriptableRenderContext rContext, Camera rCamera, bool bIsUseDynamicBatching, bool bIsUseGPUInstancing)
         {
             this.mContext = rContext;
             this.mCamera = rCamera;
@@ -32,7 +32,7 @@ namespace Framework.RP
             }
             
             this.SetUp();
-            this.DrawVisibleGeometry();
+            this.DrawVisibleGeometry(bIsUseDynamicBatching, bIsUseGPUInstancing);
             this.DrawUnsupportedShaders();
             this.DrawGizmos();
             this.Submit();
@@ -60,10 +60,14 @@ namespace Framework.RP
             this.ExecuteBuffer();
         }
 
-        private void DrawVisibleGeometry()
+        private void DrawVisibleGeometry(bool bIsUseDynamicBatching, bool bIsUseGPUInstancing)
         {
             var rSortingSettings = new SortingSettings(this.mCamera) { criteria = SortingCriteria.CommonOpaque };
-            var rDrawingSettings = new DrawingSettings(mUnlitShaderTagId, rSortingSettings);
+            var rDrawingSettings = new DrawingSettings(mUnlitShaderTagId, rSortingSettings)
+            {
+                enableDynamicBatching = bIsUseDynamicBatching,
+                enableInstancing = bIsUseGPUInstancing
+            };
             var rFilteringSettings = new FilteringSettings(RenderQueueRange.opaque);
 
             this.mContext.DrawRenderers(this.mCullingResults, ref rDrawingSettings, ref rFilteringSettings);

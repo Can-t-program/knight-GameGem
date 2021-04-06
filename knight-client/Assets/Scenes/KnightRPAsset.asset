@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc7e1a520e33cde4bb7eec2931b6f2fd, type: 3}
   m_Name: KnightRPAsset
   m_EditorClassIdentifier: 
+  mUseDynamicBatching: 0
+  mUseGPUInstancing: 1
+  mUseSRPBatcher: 1
