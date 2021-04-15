@@ -1,0 +1,35 @@
+{
+    "name": "Unity.RenderPipelines.Universal.Knight.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:3eae0364be2026648bf74846acb8a731",
+        "GUID:be0903cd8e1546f498710afdc59db5eb",
+        "GUID:329b4ccd385744985bf3f83cfd77dfe7",
+        "GUID:1f8d2f1f93bc78a43b9b1faa8abc326c",
+        "GUID:26cf70eb2d29ac745b321fb100fe0442",
+        "GUID:8f3b35eb222cded4d808833ba3ce6648"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.adaptiveperformance",
+            "expression": "2.0.0-preview.7",
+            "define": "ADAPTIVE_PERFORMANCE_2_0_0_OR_NEWER"
+        },
+        {
+            "name": "com.unity.modules.xr",
+            "expression": "1.0.0",
+            "define": "ENABLE_XR_MODULE"
+        }
+    ],
+    "noEngineReferences": false
+}

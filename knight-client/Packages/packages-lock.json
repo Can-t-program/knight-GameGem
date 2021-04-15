@@ -44,6 +44,16 @@
         "com.unity.shadergraph": "10.2.2"
       }
     },
+    "com.unity.render-pipelines.universal.knight": {
+      "version": "file:com.unity.render-pipelines.universal-knight",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      }
+    },
     "com.unity.searcher": {
       "version": "4.3.1",
       "depth": 1,
