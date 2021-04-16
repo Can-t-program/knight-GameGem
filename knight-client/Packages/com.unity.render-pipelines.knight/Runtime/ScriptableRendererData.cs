@@ -8,7 +8,7 @@ using System.Linq;
 using UnityEditor;
 #endif
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     /// <summary>
     /// Class <c>ScriptableRendererData</c> contains resources for a <c>ScriptableRenderer</c>.

@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [Serializable, VolumeComponentMenu("Post-processing/White Balance")]
     public sealed class WhiteBalance : VolumeComponent, IPostProcessComponent

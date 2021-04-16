@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     public abstract class ShadowCasterGroup2D : MonoBehaviour
     {

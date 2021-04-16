@@ -7,7 +7,7 @@ using UnityEngine.Rendering;
 using UnityEditor.Experimental.SceneManagement;
 #endif
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     /// <summary>
     /// Class <c>Light2D</c> is a 2D light which can be used with the 2D Renderer.

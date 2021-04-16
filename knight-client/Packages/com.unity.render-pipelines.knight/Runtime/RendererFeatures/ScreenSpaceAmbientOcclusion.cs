@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [Serializable]
     internal class ScreenSpaceAmbientOcclusionSettings

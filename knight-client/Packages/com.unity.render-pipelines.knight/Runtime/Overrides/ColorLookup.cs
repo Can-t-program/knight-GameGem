@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Experimental.Rendering;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [Serializable, VolumeComponentMenu("Post-processing/Color Lookup")]
     public sealed class ColorLookup : VolumeComponent, IPostProcessComponent

@@ -4,7 +4,7 @@ using System.Diagnostics;
 using UnityEngine.Experimental.Rendering;
 using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     /// <summary>
     /// Contains properties and helper functions that you can use when rendering.

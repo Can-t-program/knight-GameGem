@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [Serializable, VolumeComponentMenu("Post-processing/Lift, Gamma, Gain")]
     public sealed class LiftGammaGain : VolumeComponent, IPostProcessComponent

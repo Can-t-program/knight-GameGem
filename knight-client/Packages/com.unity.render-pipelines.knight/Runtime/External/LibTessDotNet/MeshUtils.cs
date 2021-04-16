@@ -36,7 +36,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
 
 using Real = System.Single;

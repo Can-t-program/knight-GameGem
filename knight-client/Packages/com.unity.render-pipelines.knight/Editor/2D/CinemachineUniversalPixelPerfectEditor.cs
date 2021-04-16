@@ -1,4 +1,4 @@
-namespace UnityEditor.Experimental.Rendering.Universal
+namespace UnityEditor.Experimental.Rendering.Knight
 {
     [CustomEditor(typeof(UnityEngine.Experimental.Rendering.Universal.CinemachineUniversalPixelPerfect)), CanEditMultipleObjects]
     internal class CinemachineUniversalPixelPerfectEditor : Editor

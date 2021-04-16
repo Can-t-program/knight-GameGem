@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [Serializable, VolumeComponentMenu("Post-processing/Color Adjustments")]
     public sealed class ColorAdjustments : VolumeComponent, IPostProcessComponent

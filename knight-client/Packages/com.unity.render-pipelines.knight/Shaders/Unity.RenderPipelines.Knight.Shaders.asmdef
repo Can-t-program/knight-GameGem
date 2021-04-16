@@ -1,5 +1,5 @@
 {
-    "name": "Unity.RenderPipelines.Universal.Knight.Shaders",
+    "name": "Unity.RenderPipelines.Knight.Shaders",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],

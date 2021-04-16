@@ -10,7 +10,7 @@ using UnityEditor;
 using UnityEditor.ProjectWindowCallback;
 #endif
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     [Serializable, ReloadGroup, ExcludeFromPreset]
     [MovedFrom("UnityEngine.Experimental.Rendering.LWRP")]

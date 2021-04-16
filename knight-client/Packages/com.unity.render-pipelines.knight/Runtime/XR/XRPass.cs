@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine.XR;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     internal struct XRPassCreateInfo
     {

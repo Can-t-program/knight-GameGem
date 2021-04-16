@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 using UnityEngine.Experimental.Rendering;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     // TODO: xmldoc
     public interface IPostProcessComponent

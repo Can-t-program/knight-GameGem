@@ -6,7 +6,7 @@ using UnityEngine.Experimental.Rendering.Universal.LibTessDotNet;
 using UnityEngine.Rendering;
 using UnityEngine.U2D;
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     internal static class LightUtility
     {

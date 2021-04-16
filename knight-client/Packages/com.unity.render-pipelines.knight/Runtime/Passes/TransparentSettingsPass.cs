@@ -1,4 +1,4 @@
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     /// <summary>
     /// Applies relevant settings before rendering transparent objects

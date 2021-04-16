@@ -1,7 +1,7 @@
 using UnityEngine.Experimental.GlobalIllumination;
 using Unity.Collections;
 
-namespace UnityEngine.Rendering.Universal.Internal
+namespace UnityEngine.Rendering.Knight.Internal
 {
     /// <summary>
     /// Computes and submits lighting data to the GPU.

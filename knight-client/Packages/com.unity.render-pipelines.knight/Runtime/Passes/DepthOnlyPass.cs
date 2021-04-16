@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityEngine.Rendering.Universal.Internal
+namespace UnityEngine.Rendering.Knight.Internal
 {
     /// <summary>
     /// Render all objects that have a 'DepthOnly' pass into the given depth buffer.

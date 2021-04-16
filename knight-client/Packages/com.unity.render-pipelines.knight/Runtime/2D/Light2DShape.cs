@@ -1,4 +1,4 @@
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     public sealed partial class Light2D
     {

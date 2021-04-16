@@ -1,4 +1,4 @@
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     /// <summary>
     /// (Deprecated) An add-on module for Cinemachine Virtual Camera that tweaks the orthographic size

@@ -1,6 +1,6 @@
-using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering.Knight;
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     internal static class Light2DLookupTexture
     {

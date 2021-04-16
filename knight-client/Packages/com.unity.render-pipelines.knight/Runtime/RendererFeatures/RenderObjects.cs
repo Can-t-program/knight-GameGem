@@ -3,7 +3,7 @@ using UnityEngine.Rendering.Universal;
 using UnityEngine.Rendering;
 using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     [MovedFrom("UnityEngine.Experimental.Rendering.LWRP")]public enum RenderQueueType
     {

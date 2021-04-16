@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityEngine.Rendering.Universal.Internal
+namespace UnityEngine.Rendering.Knight.Internal
 {
     public class DepthNormalOnlyPass : ScriptableRenderPass
     {

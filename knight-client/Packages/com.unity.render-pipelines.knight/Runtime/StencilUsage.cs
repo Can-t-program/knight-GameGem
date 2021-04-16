@@ -1,5 +1,5 @@
 
-namespace UnityEngine.Rendering.Universal.Internal
+namespace UnityEngine.Rendering.Knight.Internal
 {
     // Stencil usage for deferred renderer.
     enum StencilUsage

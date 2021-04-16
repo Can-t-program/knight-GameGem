@@ -15,7 +15,7 @@ namespace UnityEngine.Rendering.LWRP
     }
 }
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     /// <summary>
     /// Holds information about whether to override certain camera rendering options from the render pipeline asset.

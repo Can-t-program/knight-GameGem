@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     /// <summary>
     /// Input requirements for <c>ScriptableRenderPass</c>.

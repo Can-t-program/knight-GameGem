@@ -4,7 +4,7 @@ using System;
 using System.ComponentModel;
 using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     public abstract partial class ScriptableRenderPass
     {

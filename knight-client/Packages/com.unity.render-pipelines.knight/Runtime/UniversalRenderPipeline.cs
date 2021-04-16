@@ -3,7 +3,7 @@ using Unity.Collections;
 using System.Collections.Generic;
 #if UNITY_EDITOR
 using UnityEditor;
-using UnityEditor.Rendering.Universal;
+using UnityEditor.Rendering.Knight;
 #endif
 using UnityEngine.Scripting.APIUpdating;
 using Lightmapping = UnityEngine.Experimental.GlobalIllumination.Lightmapping;
@@ -21,7 +21,7 @@ namespace UnityEngine.Rendering.LWRP
     }
 }
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     public sealed partial class UniversalRenderPipeline : RenderPipeline
     {

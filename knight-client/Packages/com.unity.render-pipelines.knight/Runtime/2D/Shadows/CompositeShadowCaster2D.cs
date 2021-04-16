@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
 
     [AddComponentMenu("Rendering/2D/Composite Shadow Caster 2D (Experimental)")]

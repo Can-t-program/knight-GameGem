@@ -18,7 +18,7 @@ namespace UnityEngine.Rendering.LWRP
 }
 
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [MovedFrom("UnityEngine.Rendering.LWRP")] public enum ShadowQuality
     {

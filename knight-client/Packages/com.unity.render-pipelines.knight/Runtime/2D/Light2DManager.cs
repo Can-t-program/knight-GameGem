@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.SceneManagement;
 #endif
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     internal static class Light2DManager
     {

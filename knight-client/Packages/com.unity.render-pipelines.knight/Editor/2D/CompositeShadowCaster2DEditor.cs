@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.Experimental.Rendering.Knight;
 
 
-namespace UnityEditor.Experimental.Rendering.Universal
+namespace UnityEditor.Experimental.Rendering.Knight
 {
 
     [CustomEditor(typeof(CompositeShadowCaster2D))]

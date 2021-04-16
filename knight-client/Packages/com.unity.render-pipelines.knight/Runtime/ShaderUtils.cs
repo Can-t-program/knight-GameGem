@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [MovedFrom("UnityEngine.Rendering.LWRP")] public enum ShaderPathID
     {

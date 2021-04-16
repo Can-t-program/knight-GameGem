@@ -1,6 +1,6 @@
 #if ENABLE_VR && ENABLE_XR_MODULE
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     /// <summary>
     /// Draw the XR occlusion mesh into the current depth buffer when XR is enabled.

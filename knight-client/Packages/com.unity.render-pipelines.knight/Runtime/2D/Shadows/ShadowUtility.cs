@@ -7,7 +7,7 @@ using System.Linq;
 using UnityEngine.Experimental.Rendering.Universal.LibTessDotNet;
 
 
-namespace UnityEngine.Experimental.Rendering.Universal
+namespace UnityEngine.Experimental.Rendering.Knight
 {
     internal class ShadowUtility
     {

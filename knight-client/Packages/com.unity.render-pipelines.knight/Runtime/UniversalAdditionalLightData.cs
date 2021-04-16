@@ -10,7 +10,7 @@ namespace UnityEngine.Rendering.LWRP
 }
 
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [DisallowMultipleComponent]
     [RequireComponent(typeof(Light))]

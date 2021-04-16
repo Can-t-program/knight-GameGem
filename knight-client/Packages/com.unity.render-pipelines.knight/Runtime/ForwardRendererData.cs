@@ -6,7 +6,7 @@ using System;
 using UnityEngine.Scripting.APIUpdating;
 using System.ComponentModel;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     [Serializable, ReloadGroup, ExcludeFromPreset]
     [MovedFrom("UnityEngine.Rendering.LWRP")]

@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityEngine.Rendering.Universal.Internal
+namespace UnityEngine.Rendering.Knight.Internal
 {
     /// <summary>
     /// Copy the given depth buffer into the given destination depth buffer.

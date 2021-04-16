@@ -1,7 +1,7 @@
 using UnityEngine.Rendering.Universal.Internal;
 using System.Reflection;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     /// <summary>
     /// Rendering modes for Universal renderer.

@@ -1,6 +1,6 @@
 using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityEngine.Rendering.Universal
+namespace UnityEngine.Rendering.Knight
 {
     // RenderTargetHandle can be thought of as a kind of ShaderProperty string hash
     [MovedFrom("UnityEngine.Rendering.LWRP")] public struct RenderTargetHandle
