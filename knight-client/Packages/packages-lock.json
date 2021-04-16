@@ -34,8 +34,8 @@
         "com.unity.ugui": "1.0.0"
       }
     },
-    "com.unity.render-pipelines.universal": {
-      "version": "file:com.unity.render-pipelines.universal@10.2.2",
+    "com.unity.render-pipelines.knight": {
+      "version": "file:com.unity.render-pipelines.knight",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
@@ -44,8 +44,8 @@
         "com.unity.shadergraph": "10.2.2"
       }
     },
-    "com.unity.render-pipelines.universal.knight": {
-      "version": "file:com.unity.render-pipelines.universal-knight",
+    "com.unity.render-pipelines.universal": {
+      "version": "file:com.unity.render-pipelines.universal@10.2.2",
       "depth": 0,
       "source": "embedded",
       "dependencies": {

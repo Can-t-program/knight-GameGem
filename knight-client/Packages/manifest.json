@@ -5,7 +5,7 @@
     "com.unity.shadergraph": "file:./com.unity.shadergraph@10.2.2",
     "com.unity.render-pipelines.core": "file:./com.unity.render-pipelines.core@10.2.2",
     "com.unity.render-pipelines.universal": "file:./com.unity.render-pipelines.universal@10.2.2",
-    "com.unity.render-pipelines.universal.knight": "file:./com.unity.render-pipelines.universal-knight",
+    "com.unity.render-pipelines.knight": "file:./com.unity.render-pipelines.knight", 
     "com.unity.test-framework": "file:./com.unity.test-framework@1.1.20",
     "com.unity.textmeshpro": "3.0.3",
     "com.unity.timeline": "1.4.5",
